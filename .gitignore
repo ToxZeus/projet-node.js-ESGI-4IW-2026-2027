@@ -1,0 +1,31 @@
+# Sujet du projet (ne pas versionner)
+Sujet.pdf
+
+# Dépendances et builds
+node_modules/
+dist/
+build/
+coverage/
+*.tsbuildinfo
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Fichiers téléversés et données de base
+uploads/
+storage/
+pgdata/
+*.sqlite
+*.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Éditeurs / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
